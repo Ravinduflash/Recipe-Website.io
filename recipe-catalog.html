@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RecipeLover</title>
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body style="padding-top: 70px" onLoad="MM_preloadImages('screenshot20231203.png')">
+<nav aria-label="breadcrumb">
+  <hr>
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+	<li class="breadcrumb-item"><a href="#">Recipe Catalog</a></li>
+  
+  </ol>
+</nav>
+<hr>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <h3 class="text-center text-capitalize"><img src="screenshot20231203.png" alt="" width="39" height="50" class="img-fluid img-thumbnail" id="logo"><strong>&nbsp;RecipeLover</strong> <a class="navbar-brand" href="#"><strong>&nbsp;&nbsp;</strong></a></h3>
+<p><a class="navbar-brand" href="#">&nbsp;</a> </p>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
+      <li class="nav-item active"> <a class="nav-link" href="">Recipe Catalog&nbsp;</a> </li>
+      
+      <li class="nav-item active"> <a class="nav-link" href="contact.html">Contact Us&nbsp;</a> </li>
+	  <li class="nav-item active"> <a class="nav-link" href="about.html">About&nbsp;</a> </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('logo','','screenshot20231203.png',1)"></a>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> &nbsp; </a>
+<hr>
+<strong></strong></nav>
+
+<div class="jumbotron">
+  <h1 class="display-4">Recipe Catalog.&nbsp;</h1><br>
+	
+  
+<p class="lead">Welcome to our extensive recipe catalog, where culinary enthusiasts like you can discover a world of delectable dishes from around the globe. Whether you're craving classic comfort food or seeking adventurous culinary experiences, our comprehensive collection has something to tantalize every palate.</p>
+  <hr class="my-4">
+  
+  <h2>Browse by Category:</h2>
+  
+  <p>&nbsp;</p>
+  <div id="Accordion1">
+    <h3><a href="#">Appetizers:</a></h3>
+    <div>
+      <p>&nbsp;
+        <div class="row">
+          
+          <div class="card col-md-4"> <img src="Wheat-Pizza-Crust.jpg" alt="Card image cap" width="264" height="200" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Wheat-Pizza-Crust</h5>
+              <p class="card-text">This whole wheat pizza crust recipe offers a healthier alternative to traditional pizza. The dough, made with yeast, sugar, warm water, olive oil, salt, and a mix of whole wheat and all-purpose flour, is kneaded, risen, and shaped1. Topped with your favorite ingredients, it’s baked to a perfect crisp yet soft finish. Enjoy a delicious pizza with this easy-to-follow recipe.&nbsp;</p>
+              <a class="btn btn-primary" href="Wheat-Pizza-Crust.html">Watch Recipe&nbsp;</a></div>
+          </div>
+          <div class="card col-md-4"> <img src="mini crab cakes.webp" alt="Card image cap" width="300" height="200" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Mini Crab Cakes&nbsp;</h5>
+              <p class="card-text">Mini Crab Cakes are delightful bite-sized appetizers, perfect for parties. Made with Greek nonfat yogurt, red pepper, green onion, lemon zest, breadcrumbs, and herbs, these crab cakes are baked until lightly golden. They can be served hot or cold, paired with a tangy yogurt sauce for an extra burst of flavor. Enjoy these mini bites of bliss at your next gathering!&nbsp;</p>
+            <a href="#" class="btn btn-primary">Watch Recipe&nbsp;</a> </div>
+          </div>
+          <div class="card col-md-4"> <img src="caprese-skewers.jpg" alt="Card image cap" width="290" height="200" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Caprese Skewers</h5>
+              <p class="card-text">Caprese Skewers are vibrant, bite-sized appetizers perfect for any occasion. They consist of juicy tomatoes, creamy mozzarella cheese, and fresh basil leaves, all skewered together. Drizzled with olive oil and seasoned with salt and pepper, these skewers offer a burst of classic Italian flavors in every bite. They’re not only delicious but also light and healthy. Enjoy!</p>
+              <a href="#" class="btn btn-primary">Watch Recipe&nbsp;</a> </div>
+          </div>
+          
+          
+        </div>
+      </p>
+    </div>
+    <h3><a href="#">Main Courses:</a></h3>
+    <div>
+      <p>&nbsp;
+      <div class="row">
+          
+          <div class="card col-md-4"> <img src="ratatouille.jpg" alt="Card image cap" width="270" height="200" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Disney's Ratatouille</h5>
+              <p class="card-text">Ratatouille “Ratatouille” is a 2007 Disney-Pixar film set in Paris. It follows the story of Remy, a rat who dreams of becoming a chef. Despite being a rat in a rodent-phobic profession, Remy forms an unusual alliance with a young kitchen worker at a famous Paris restaurant. The film humorously and excitingly portrays Remy’s culinary journey, turning the culinary world of Paris upside down</p>
+            <a href="Disney's Ratatouille.html" class="btn btn-primary">Watch Recipe&nbsp;</a> </div>
+          </div>
+          <div class="card col-md-4"> <img src="Lasagna.jpg" alt="Card image cap" height="200" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">World's Best Lasagna</h5>
+              <p class="card-text">The World’s Best Lasagna is a beloved dish known for its rich and hearty flavors. It combines layers of pasta, cheese, and a savory meat sauce, baked to perfection. This lasagna stands out for its depth of flavor, achieved through a careful balance of ingredients and a slow-cooking process. It’s a comforting, satisfying meal that’s often considered the pinnacle of Italian home cooking.</p>
+            <a href="Lasagna.html" class="btn btn-primary">Watch Recipe&nbsp;</a> </div>
+          </div>
+          <div class="card col-md-4"> <img src="Hamburger.jpeg" alt="Card image cap" width="300" height="200" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Hamburger</h5>
+              <p class="card-text">hamburger for a recipe website card: A tasty hamburger starts with a juicy ground beef patty that is seasoned to create a savory, melt-in-your-mouth burger. Topped with melted cheese, caramelized onions, tomato and lettuce between a toasted bun, this American classic hits all the delicious notes. Customize it by adding different toppings like bacon, avocado, sautéed mushrooms or a fried egg to craft your perfect burger.</p>
+            <a href="#" class="btn btn-primary">Watch Recipe&nbsp;</a> </div>
+          </div>
+          
+          
+      </div>
+      </p>
+    </div>
+    <h3><a href="#">&nbsp;Desserts:</a></h3>
+    <div>
+      <p>&nbsp;
+      <div class="row">
+          
+          <div class="card col-md-4"> <img src="ice cream.webp" alt="Card image cap" height="200" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Ice-cream</h5>
+              <p class="card-text">Ice cream, a delightful frozen treat, is a blend of milk, cream, sugar, and flavorings. It’s churned during freezing to incorporate air, resulting in a creamy, smooth texture. From classic vanilla to exotic flavors, it’s a versatile dessert that can be enjoyed in a bowl, cone, or as part of a sundae. Enjoy the sweet indulgence! 🍨</p>
+              <a href="ice-cream.html" class="btn btn-primary">Watch Recipe&nbsp;</a> </div>
+          </div>
+          <div class="card col-md-4"> <img src="Apple-Pie.jpg" alt="Card image cap" height="200" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Apple Pie</h5>
+              <p class="card-text">Apple pie, a classic dessert, is a delightful blend of sweet and tart flavors. Encased in a flaky, buttery crust, the spiced apple filling creates a comforting dish. Perfect for holidays or a cozy night in, this pie is a timeless treat that brings warmth and joy to any table.</p>
+            <a href="#" class="btn btn-primary">&nbsp;Watch Recipe</a> </div>
+          </div>
+          <div class="card col-md-4"> <img src="Jell-o.jpg" alt="Card image cap" height="200" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Jell-O</h5>
+              <p class="card-text">Jell-O, a vibrant and wobbly dessert, is a fun treat loved by all ages. Made by dissolving flavored gelatin in hot water and then chilled, it transforms into a jiggly delight. It can be enjoyed on its own, or used in a variety of desserts and salads. Its versatility and simplicity make it a staple in many households.</p>
+              <a href="#" class="btn btn-primary">Watch Recipe&nbsp;</a> </div>
+        </div>
+          
+          
+        </div>
+      </p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+$(function() {
+	$( "#Accordion1" ).accordion(); 
+});
+</script>
